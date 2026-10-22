@@ -1,0 +1,14 @@
+# SAYZEK-ATP Maritime Ship Detection Dataset Configuration
+# Academic Thesis Program: Deep Learning-Based Autonomous UAV Landing on Maritime Vessels
+
+path: ./dataset  # dataset root directory
+train: images/train
+val: images/val
+test: images/test
+
+# Classes
+names:
+  0: ship
+  1: naval_vessel
+  2: cargo_ship
+  3: landing_deck
